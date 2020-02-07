@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cdbe54a-1a3e-4272-be68-56ca2eb1f23c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestFirstProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MyServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/DayStatistic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/ProductAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/model/UserStatistic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
@@ -152,18 +141,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581091053591</updated>
-      <workItem from="1581091056581" duration="451000" />
+      <workItem from="1581091056581" duration="1032000" />
     </task>
+    <task id="LOCAL-00001" summary="Added model classes and some jbdc methods">
+      <created>1581099006938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581099006938</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added model classes and some jbdc methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added model classes and some jbdc methods" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581098943282">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581098943282" />
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1581099006131">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581099006131" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581091408917">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -184,5 +200,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581098921262" />
+    <state x="275" y="86" key="Vcs.Push.Dialog.v2" timestamp="1581099034330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="86" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581099034330" />
   </component>
 </project>
