@@ -2,15 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cdbe54a-1a3e-4272-be68-56ca2eb1f23c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/outInformation/ProductShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/ProductAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/ProductAmount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Products.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -35,6 +65,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -46,6 +77,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src" />
       <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src\main" />
     </key>
   </component>
@@ -129,7 +161,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1126b429" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -146,7 +188,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581091053591</updated>
-      <workItem from="1581091056581" duration="1032000" />
+      <workItem from="1581091056581" duration="8055000" />
     </task>
     <task id="LOCAL-00001" summary="Added model classes and some jbdc methods">
       <created>1581099006938</created>
@@ -155,7 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581099006938</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Do master is empty">
+      <created>1581099588397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581099588397</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added test branch">
+      <created>1581099723954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581099723954</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,40 +230,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added model classes and some jbdc methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added model classes and some jbdc methods" />
+    <MESSAGE value="Do master is empty" />
+    <MESSAGE value="Added test branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test branch" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581098943282">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581101986517">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581098943282" />
-    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1581099587307">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581101986517" />
+    <state x="196" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581103997206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581099587307" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1581091408917">
+    <state x="196" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1581103997206" />
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1581099723095">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581091408917" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1581091408917">
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581099723095" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1581131631459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581091408917" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1581091408917">
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581131631459" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1581131631459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581091408917" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1581091408917">
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581131631459" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1581131631459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581091408917" />
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581131631459" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1581131631459">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581131631459" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1581098921262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581098921262" />
-    <state x="275" y="86" key="Vcs.Push.Dialog.v2" timestamp="1581099599309">
+    <state x="275" y="86" key="Vcs.Push.Dialog.v2" timestamp="1581099731572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="86" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581099599309" />
+    <state x="275" y="86" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581099731572" />
   </component>
 </project>

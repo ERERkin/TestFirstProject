@@ -1,4 +1,4 @@
-package com.model;
+package com.outInformation;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -9,10 +9,8 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
-public class ProductAmount {
-    //int id;
-    String productName;
-    int dayStatisticId;
+public class ProductShow {
+    String name;
     int amountInStock;
     int amountSold;
 }
