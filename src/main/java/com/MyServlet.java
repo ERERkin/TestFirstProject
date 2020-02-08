@@ -37,5 +37,6 @@ public class MyServlet extends HttpServlet {
         dispatcher1.forward(req,resp);*/
         PrintWriter writer = resp.getWriter();
         writer.print("<h1>FFFF</h1>");
+        int [][] a = {{1,2},{1,2}};
     }
 }

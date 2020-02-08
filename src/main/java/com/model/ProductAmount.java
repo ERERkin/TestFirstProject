@@ -10,7 +10,7 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
 public class ProductAmount {
-    //int id;
+    int id;
     String productName;
     int dayStatisticId;
     int amountInStock;

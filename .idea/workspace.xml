@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cdbe54a-1a3e-4272-be68-56ca2eb1f23c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/outInformation/ProductShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MyServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/model/ProductAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/ProductAmount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Products.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,41 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -188,7 +219,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581091053591</updated>
-      <workItem from="1581091056581" duration="8055000" />
+      <workItem from="1581091056581" duration="18900000" />
     </task>
     <task id="LOCAL-00001" summary="Added model classes and some jbdc methods">
       <created>1581099006938</created>
@@ -211,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581099723954</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added methods in BD addProduct, addDayStatistic, getDayStatistic(return arrayList&lt;ProductShow), getPeriodStatisticForProduct, getDayStatisticCount and getThisDayStatistic">
+      <created>1581134857650</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581134857650</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +270,8 @@
     <MESSAGE value="Added model classes and some jbdc methods" />
     <MESSAGE value="Do master is empty" />
     <MESSAGE value="Added test branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test branch" />
+    <MESSAGE value="Added methods in BD addProduct, addDayStatistic, getDayStatistic(return arrayList&lt;ProductShow), getPeriodStatisticForProduct, getDayStatisticCount and getThisDayStatistic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added methods in BD addProduct, addDayStatistic, getDayStatistic(return arrayList&lt;ProductShow), getPeriodStatisticForProduct, getDayStatisticCount and getThisDayStatistic" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581101986517">
@@ -243,33 +282,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="196" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1581103997206" />
-    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1581099723095">
+    <state x="301" y="0" key="CommitChangelistDialog2" timestamp="1581134856567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581099723095" />
-    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1581131631459">
+    <state x="301" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581134856567" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1581146962373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581131631459" />
-    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1581131631459">
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581146962373" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1581146962373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581131631459" />
-    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1581131631459">
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581146962373" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1581146962373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581131631459" />
-    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1581131631459">
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581146962373" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1581146962373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581131631459" />
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581146962373" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1581098921262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581098921262" />
-    <state x="275" y="86" key="Vcs.Push.Dialog.v2" timestamp="1581099731572">
+    <state x="275" y="86" key="Vcs.Push.Dialog.v2" timestamp="1581134869806">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="86" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581099731572" />
+    <state x="275" y="86" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581134869806" />
+    <state x="65" y="60" key="new project wizard" timestamp="1581139659174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581139659174" />
   </component>
 </project>

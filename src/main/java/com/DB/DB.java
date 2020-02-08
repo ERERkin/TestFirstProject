@@ -102,7 +102,8 @@ public class DB {
         String SQL = "select p.name, pa.amountinstock , pa.amountsold from product_amounts pa\n" +
                 "join products p on pa.product_name = p.name\n" +
                 "join day_statistics ds on pa.day_statistic_id = ds.id\n" +
-                "where ds.day_count = ? and ds.user_login = ?;";
+                "where ds.day_count = ? and ds.user_login = ?" +
+                "order by p.name;";
         try(Connection connection = connect();
             PreparedStatement statement = connection.prepareStatement(SQL);) {
             statement.setInt(1,dayCount);
@@ -120,9 +121,9 @@ public class DB {
     }
     public static ArrayList<ProductShow> getPeriodStatisticForProduct(int a, int b, String login, String productName){
         ArrayList<ProductShow> productShows = new ArrayList<>();
-        String SQL = "select p.name, pa.amountinstock , pa.amountsold from product_amounts pa\n" +
-                "join products p on pa.product_name = p.name\n" +
-                "join day_statistics ds on pa.day_statistic_id = ds.id\n" +
+        String SQL = "select p.name, pa.amountinstock , pa.amountsold from product_amounts pa " +
+                "join products p on pa.product_name = p.name " +
+                "join day_statistics ds on pa.day_statistic_id = ds.id " +
                 "where ds.day_count >= ? and ds.day_count <= ? and ds.user_login = ? and p.name = ?;";
         try(Connection connection = connect();
             PreparedStatement statement = connection.prepareStatement(SQL);) {
@@ -167,7 +168,7 @@ public class DB {
             statement.setInt(1,id);
             try(ResultSet rs = statement.executeQuery()) {
                 while (rs.next()){
-                    productAmounts.add(new ProductAmount(rs.getString("product_name"), rs.getInt("day_statistic_id")
+                    productAmounts.add(new ProductAmount(rs.getInt("id"),rs.getString("product_name"), rs.getInt("day_statistic_id")
                     , rs.getInt("amountInStock"), rs.getInt("amountSold")));
                 }
             }
@@ -176,5 +177,50 @@ public class DB {
             e.printStackTrace();
         }
         return productAmounts;
+    }
+    public static DayStatistic addNextDay(DayStatistic dayStatistic, ArrayList<ProductAmount> productAmounts) {
+        dayStatistic.setDayCount(dayStatistic.getDayCount() + 1);
+        addDayStatistic(dayStatistic);
+        int id = getDayStatisticCount(dayStatistic.getDayCount() , dayStatistic.getUserLogin());
+        String SQL = "insert into product_amounts (product_name, day_statistic_id,amountInStock, amountSold) values (?,?,?,?)";
+        for(int i = 0; i < productAmounts.size() - 1; i++){
+            SQL += ",(?,?,?,?)";
+        }
+        SQL += ";";
+        try(Connection connection = connect();
+            PreparedStatement statement = connection.prepareStatement(SQL);) {
+            for(int i = 0; i < productAmounts.size(); i++){
+                int k = i * 4;
+                statement.setString(k + 1,productAmounts.get(i).getProductName());
+                statement.setInt(k + 2,id);
+                statement.setInt(k + 3,productAmounts.get(i).getAmountInStock());
+                statement.setInt(k + 4,productAmounts.get(i).getAmountSold());
+            }
+            statement.executeUpdate();
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
+        return dayStatistic;
+    }
+    public ArrayList<Product> findProducts(String find){
+        ArrayList<Product> products = new ArrayList<>();
+        String SQL = "select * products like name = ?";
+        try(Connection connection = connect();
+            PreparedStatement statement = connection.prepareStatement(SQL);) {
+            statement.setString(1,"%" + find + "%");
+            try(ResultSet rs = statement.executeQuery()){
+                while (rs.next()){
+                    products.add(new Product(rs.getInt("id"),
+                            rs.getString("code"),
+                            rs.getString("name"),
+                            rs.getDouble("price"),
+                            rs.getString("url")));
+                }
+            }
+            statement.executeUpdate();
+        } catch (SQLException e){
+            e.printStackTrace();
+        }
+        return products;
     }
 }
