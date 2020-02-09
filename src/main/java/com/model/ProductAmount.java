@@ -12,7 +12,7 @@ import lombok.experimental.FieldDefaults;
 public class ProductAmount {
     int id;
     String productName;
-    int dayStatisticId;
+    int monthStatisticId;
     int amountInStock;
     int amountSold;
 }

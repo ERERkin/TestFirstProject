@@ -10,8 +10,8 @@ import lombok.experimental.FieldDefaults;
 @AllArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @ToString
-public class DayStatistic {
+public class MonthStatistic {
     int id;
     String userLogin;
-    int dayCount;
+    int monthCount;
 }
