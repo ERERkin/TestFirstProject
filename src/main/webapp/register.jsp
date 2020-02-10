@@ -8,9 +8,23 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>register</title>
 </head>
 <body>
-$END$
+Sign up
+<form action = "${pageContext.request.contextPath}/register" method = "POST">
+    Login : <input type="text" required placeholder="login"/>
+    <br/>
+    Email : <input type = "email" required placeholder="email"/>
+    <br/>
+    Story Name : <input type="text" required placeholder="story name"/>
+    <br/>
+    Password : <input type="password" required placeholder="password"/><br>
+    <input type="submit" value = "Send"/>
+</form>
+<form action = "${pageContext.request.contextPath}/authorize" method = "POST">
+    Do you have account?
+    <input type="submit" value = "Sign in"/>
+</form>
 </body>
 </html>

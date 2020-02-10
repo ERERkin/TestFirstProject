@@ -8,9 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<form action="${pageContext.request.contextPath}/authorize" method="GET"></form>
+Login : <input type="text" name="login"/>
+<br>
+Password : <input type="password" name="password"/>
+<br>
+<input type="submit" value="Send"/>
+
 </body>
 </html>
