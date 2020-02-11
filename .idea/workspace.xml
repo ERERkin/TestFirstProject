@@ -7,27 +7,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cdbe54a-1a3e-4272-be68-56ca2eb1f23c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AddProductAmountServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/AdminServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/BorderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/MonthStatisticServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ProductListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/outInformation/TwoProductShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Fail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/New.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/end.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/productList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/userPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/AuthorizeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/authorize.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/DayStatistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/MonthStatistic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/ProductAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/ProductAmount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/Fail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/New.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/META-INF/TestFirstProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/AddProductAmountServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/AdminServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/BorderServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/DB/DB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/MonthStatisticServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/MyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/ProductListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/MonthStatistic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/ProductAmount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/UserStatistic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/outInformation/ProductShow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/outInformation/TwoProductShow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/lib/postgresql-8.4-702.jdbc4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/end.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/productList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/userPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TestFirstProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AddProductAmountServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/AdminServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/BorderServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/DB/DB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MonthStatisticServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/MyServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ProductListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/MonthStatistic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/ProductAmount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/model/UserStatistic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/outInformation/ProductShow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/outInformation/TwoProductShow.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +129,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ba1ca421d3f3e5f53d7d7531e66d0c649fb93d52" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -141,14 +171,17 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src\main\webapp" />
+      <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src\main\webapp" />
       <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src" />
       <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src\main" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src\main\webapp" />
-      <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager">
@@ -240,10 +273,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -348,54 +377,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581158486289" />
-    <state width="905" height="231" key="GridCell.Tab.0.bottom" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.0.bottom" timestamp="1581442619170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.0.center" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581442619170" />
+    <state width="905" height="242" key="GridCell.Tab.0.center" timestamp="1581442619170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.0.left" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581442619170" />
+    <state width="905" height="242" key="GridCell.Tab.0.left" timestamp="1581442619169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.0.right" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581442619169" />
+    <state width="905" height="242" key="GridCell.Tab.0.right" timestamp="1581442619170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.1.bottom" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581442619170" />
+    <state width="905" height="242" key="GridCell.Tab.1.bottom" timestamp="1581442619170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.1.center" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581442619170" />
+    <state width="905" height="242" key="GridCell.Tab.1.center" timestamp="1581442619170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.1.left" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581442619170" />
+    <state width="905" height="242" key="GridCell.Tab.1.left" timestamp="1581442619170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.1.right" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581442619170" />
+    <state width="905" height="242" key="GridCell.Tab.1.right" timestamp="1581442619170">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.2.bottom" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581442619170" />
+    <state width="905" height="242" key="GridCell.Tab.2.bottom" timestamp="1581442619172">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.2.center" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581442619172" />
+    <state width="905" height="242" key="GridCell.Tab.2.center" timestamp="1581442619171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.2.left" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1581442619171" />
+    <state width="905" height="242" key="GridCell.Tab.2.left" timestamp="1581442619171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
-    <state width="905" height="231" key="GridCell.Tab.2.right" timestamp="1581263338194">
+    <state width="905" height="242" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1581442619171" />
+    <state width="905" height="242" key="GridCell.Tab.2.right" timestamp="1581442619171">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="231" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1581263338194" />
+    <state width="905" height="242" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1581442619171" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1581098921262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

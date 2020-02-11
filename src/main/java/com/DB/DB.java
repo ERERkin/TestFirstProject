@@ -23,6 +23,39 @@ public class DB {
         }
         return conn;
     }
+
+    public static boolean authorize(String login,String password){
+        String SQL="select * from user_statistics where login = ? password=?";
+        try(Connection connection=connect();
+            PreparedStatement statement=connection.prepareStatement(SQL);){
+            statement.setString(1,login);
+            statement.setString(2,password);
+            try (ResultSet rs = statement.executeQuery()) {
+                rs.next();
+                rs.getInt("id");
+                return true;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
+   /* public static boolean addUserStatistic(UserStatistic userStatistic) {
+        String SQL = "insert into user_statistics (login, email, storyName, password) values (?,?,?,?)";
+        try (Connection connection = connect();
+             PreparedStatement statement = connection.prepareStatement(SQL);) {
+            statement.setString(1, userStatistic.getLogin());
+            statement.setString(2, userStatistic.getEmail());
+            statement.setString(3, userStatistic.getStoryName());
+            statement.setString(4, userStatistic.getPassword());
+            statement.executeUpdate();
+            return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }*/
+
     public static boolean addApplication(Application application) throws SQLException {
         String SQL = "insert into application (full_name,email,course,is_online)";
         try(Connection connection = connect();
