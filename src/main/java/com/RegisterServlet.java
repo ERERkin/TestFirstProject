@@ -19,6 +19,10 @@ public class RegisterServlet extends HttpServlet {
         u.setEmail(req.getParameter("email"));
         u.setStoryName(req.getParameter("storyName"));
         u.setPassword(req.getParameter("password"));
+        System.out.println(req.getParameter("login"));
+        System.out.println(req.getParameter("email"));
+        System.out.println(req.getParameter("storyName"));
+        System.out.println(req.getParameter("password"));
         boolean result=DB.addUserStatistic(u);
         String url;
         if (result)

@@ -13,16 +13,16 @@
 <body>
 Sign up
 <form action = "${pageContext.request.contextPath}/register" method = "POST">
-    Login : <input type="text" required placeholder="login"/>
+    Login : <input type="text" name="login"/>
     <br/>
-    Email : <input type = "email" required placeholder="email"/>
+    Email : <input type = "text" name="email"/>
     <br/>
-    Story Name : <input type="text" required placeholder="story name"/>
+    Story Name : <input type="text" name="storyN+ame"/>
     <br/>
-    Password : <input type="password" required placeholder="password"/><br>
+    Password : <input type="password" name="password"/><br>
     <input type="submit" value = "Send"/>
 </form>
-<form action = "${pageContext.request.contextPath}/authorize" method = "POST">
+<form action = "authorize.jsp" method = "POST">
     Do you have account?
     <input type="submit" value = "Sign in"/>
 </form>

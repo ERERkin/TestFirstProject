@@ -26,20 +26,19 @@ public class DB {
     }
 
     public static boolean authorize(String login,String password){
-        String SQL="select * from user_statistics where login = ? password=?";
+        String SQL="select count (*) from user_statistics where login = ? and password = ?";
         try(Connection connection=connect();
         PreparedStatement statement=connection.prepareStatement(SQL);){
             statement.setString(1,login);
             statement.setString(2,password);
             try (ResultSet rs = statement.executeQuery()) {
                 rs.next();
-                rs.getInt("id");
-                return true;
+                if(rs.getInt(1) != 0) return true;
             }
         } catch (SQLException e) {
             e.printStackTrace();
         }
-return false;
+        return false;
     }
 
     public static boolean addApplication(Application application) throws SQLException {

@@ -5,5 +5,6 @@
     login <input type="text" name="login"/>
     <input type="submit" name="send">
 </form>
+<a href="register.jsp">TUT</a>
 </body>
 </html>

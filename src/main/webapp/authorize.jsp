@@ -11,12 +11,12 @@
     <title>Title</title>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/authorize" method="GET"></form>
+<form action="${pageContext.request.contextPath}/authorize" method="post">
 Login : <input type="text" name="login"/>
 <br>
 Password : <input type="password" name="password"/>
 <br>
 <input type="submit" value="Send"/>
-
+</form>
 </body>
 </html>
