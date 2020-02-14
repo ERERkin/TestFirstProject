@@ -7,60 +7,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cdbe54a-1a3e-4272-be68-56ca2eb1f23c" name="Default Changelist" comment="">
+    <list default="true" id="4ac7e0c4-6d4f-43c0-b51d-6e830e8105e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/UploadFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/files/123456.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/files/apple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/files/cherry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/files/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploadImages.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/DB/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/authorize.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/authorize.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/Fail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/New.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/META-INF/TestFirstProject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/AddProductAmountServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/AdminServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/BorderServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/DB/DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/MonthStatisticServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/MyServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/ProductListServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/MonthStatistic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/ProductAmount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/model/UserStatistic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/outInformation/ProductShow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/classes/com/outInformation/TwoProductShow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/WEB-INF/lib/postgresql-8.4-702.jdbc4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/admin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/end.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/productList.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestFirstProject/userPage.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TestFirstProject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AddProductAmountServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/AdminServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/BorderServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DB/DB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/MonthStatisticServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/MyServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ProductListServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/MonthStatistic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/ProductAmount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/model/UserStatistic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/outInformation/ProductShow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/outInformation/TwoProductShow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,6 +82,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -153,20 +112,26 @@
     </option>
   </component>
   <component name="ProjectId" id="1XUBzJIBN3AjflmtFtnc8OjbbHC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -178,8 +143,21 @@
       <recent name="C:\Users\User\IdeaProjects\TestFirstProject\src\main" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.50" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.50" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8081/TestFirstProject/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="TestFirstProject:war exploded">
@@ -195,6 +173,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_TestFirstProject" />
+        <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -259,34 +238,28 @@
     </configuration>
   </component>
   <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@57cb3d1" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@475862f1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@475862f1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@31035118" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@475862f1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@259901d5" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -294,12 +267,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cdbe54a-1a3e-4272-be68-56ca2eb1f23c" name="Default Changelist" comment="" />
+      <changelist id="4ac7e0c4-6d4f-43c0-b51d-6e830e8105e7" name="Default Changelist" comment="" />
       <created>1581091053591</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581091053591</updated>
       <workItem from="1581091056581" duration="18900000" />
+      <workItem from="1581704019041" duration="11337000" />
     </task>
     <task id="LOCAL-00001" summary="Added model classes and some jbdc methods">
       <created>1581099006938</created>
@@ -349,6 +323,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added model classes and some jbdc methods" />
     <MESSAGE value="Do master is empty" />
     <MESSAGE value="Added test branch" />
@@ -428,5 +403,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1581139659174" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/uploadImages.jsp</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
