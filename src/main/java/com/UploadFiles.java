@@ -29,7 +29,7 @@ public class UploadFiles extends HttpServlet {
                 for (FileItem item : multiparts) {
                     if (!item.isFormField()) {
                         String name = new File(item.getName()).getName();
-                        item.write(new File("C:\\Users\\Администратор\\Desktop\\FirstProject\\TestFirstProject\\src\\main\\java\\com\\files" + File.separator + name));
+                        item.write(new File("C:\\Users\\User\\IdeaProjects\\TestFirstProject\\src\\main\\java\\com\\files" + File.separator + name));
                     }
                 }
                 req.setAttribute("success", "File Uploaded Successfully");

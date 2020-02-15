@@ -17,7 +17,7 @@ Sign up
     <br/>
     Email : <input type = "text" name="email"/>
     <br/>
-    Story Name : <input type="text" name="storyName"/>
+    Story Name : <input type="text" name="storyN+ame"/>
     <br/>
     Password : <input type="password" name="password"/><br>
     <input type="submit" value = "Send"/>
