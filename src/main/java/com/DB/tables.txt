@@ -1,0 +1,81 @@
+create table products(
+                         id serial primary key ,
+                         code varchar(50) unique not null ,
+                         name varchar(50) unique not null,
+                         price float8 not null ,
+                         url varchar(250)
+);
+create table user_statistics(
+                                id serial primary key ,
+                                login varchar(50) not null unique ,
+                                email varchar(50) not null unique ,
+                                storyName varchar(50) not null,
+                                password varchar(50) not null
+);
+create table month_statistics(
+                                 id serial primary key ,
+                                 user_login varchar(50) references user_statistics(login),
+                                 month_count int not null
+);
+create table product_amounts(
+                                id serial primary key,
+                                product_name varchar(50) references products(name) not null ,
+                                month_statistic_id int references month_statistics(id) ,
+                                amountInStock int default 0,
+                                amountSold int default 0
+);
+insert into products(code, name, price, url) VALUES
+('w121','Lemonade',50,'https://github.com/'),
+('w122','Juice',100,'https://github.com/'),
+('w123','Mineral water',35,'https://github.com/'),
+('w124','Coffee',40,'https://github.com/'),
+('w125','Milk',50,'https://github.com/'),
+('w126','Coke',45,'https://github.com/'),
+('w127','Ice tea',40,'https://github.com/'),
+('w128','Compote',60,'https://github.com/'),
+('w129','Tea',50,'https://github.com/'),
+
+('q4500','Chocolate',120,'https://github.com/'),
+('q4501','Cake',200,'https://github.com/'),
+('q4502','Macaroon',300,'https://github.com/'),
+('q4503','Apple pie',350,'https://github.com/'),
+('q4504','Jello',60,'https://github.com/'),
+('q4506','Muffin',40,'https://github.com/'),
+('q4507','Bagel',70,'https://github.com/'),
+('q4508','Croissant',40,'https://github.com/'),
+('q4509','Eclair',80,'https://github.com/'),
+
+('f7860','Apple',160,'https://github.com/'),
+('f7861','Banana',160,'https://github.com/'),
+('f7862','Avocado',450,'https://github.com/'),
+('f7863','Apricot',300,'https://github.com/'),
+('f7864','Cherry',300,'https://github.com/'),
+('f7865','Blackberry',300,'https://github.com/'),
+('f7866','Coconut',600,'https://github.com/'),
+('f7867','Grapefruit',300,'https://github.com/'),
+('f7868','Kiwi',300,'https://github.com/'),
+('f7869','Lemon',250,'https://github.com/'),
+('f7870','Grapes',300,'https://github.com/'),
+('f7871','Mango',350,'https://github.com/'),
+('f7872','Orange',300,'https://github.com/'),
+('f7873','Pear',400,'https://github.com/'),
+('f7874','Pineapple',450,'https://github.com/'),
+('f7875','Pomegranate','https://github.com/'),
+('f7876','Strawberry',450,'https://github.com/'),
+('f7876','Potato',50,'https://github.com/');
+
+
+insert into user_statistics(login, email, storyName, password) VALUES
+('login1', 'email1', 'Happy', 'password1'),
+('login2', 'email2', 'Cherry', 'password2'),
+('login3', 'email3', 'Frunze', 'password3'),
+('login4', 'email4', 'Blue sky', 'password4'),
+('login5', 'email5', 'Dracula', 'password5');
+insert into month_statistics(user_login, month_count) VALUES
+('login1', 1),
+('login3', 2);
+insert into product_amounts(product_name, month_statistic_id) values
+('Juice', 1),
+('Apple', 2),
+('Lemonade', 5),
+('Pear', 4);
